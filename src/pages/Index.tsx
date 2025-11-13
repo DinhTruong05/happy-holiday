@@ -1,11 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { SpinWheel } from "@/components/SpinWheel";
+import { BookOpen, Heart } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/10">
+      {/* Decorative elements */}
+      <div className="fixed top-10 left-10 opacity-20">
+        <BookOpen className="w-24 h-24 text-primary animate-float" />
+      </div>
+      <div className="fixed bottom-10 right-10 opacity-20">
+        <Heart className="w-24 h-24 text-secondary animate-float" style={{ animationDelay: "1s" }} />
+      </div>
+
+      {/* Main content */}
+      <div className="relative z-10 container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-screen">
+        <SpinWheel />
+        
+        <footer className="mt-12 text-center text-muted-foreground animate-fade-in">
+          <p className="text-sm">
+            Được tạo với ❤️ để tri ân thầy cô
+          </p>
+        </footer>
       </div>
     </div>
   );

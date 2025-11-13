@@ -80,10 +80,30 @@ export default {
             height: "0",
           },
         },
+        "spin-wheel": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(1800deg)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0", transform: "scale(0.9)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+        "confetti-fall": {
+          "0%": { transform: "translateY(-100vh) rotate(0deg)", opacity: "1" },
+          "100%": { transform: "translateY(100vh) rotate(720deg)", opacity: "0" },
+        },
+        "float": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-wheel": "spin-wheel 4s cubic-bezier(0.17, 0.67, 0.12, 0.99)",
+        "fade-in": "fade-in 0.5s ease-out",
+        "confetti-fall": "confetti-fall 3s linear forwards",
+        "float": "float 3s ease-in-out infinite",
       },
     },
   },
