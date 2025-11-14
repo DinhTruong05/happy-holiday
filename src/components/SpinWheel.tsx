@@ -17,6 +17,18 @@ const wishes = [
   "Chúc thầy/cô luôn tươi trẻ, xinh đẹp và tràn đầy năng lượng! ✨",
   "Cảm ơn thầy/cô đã làm cho lớp học trở nên vui vẻ và bổ ích! 🎨",
   "Chúc thầy/cô thành công trong sự nghiệp và hạnh phúc trong cuộc sống! 🎯",
+
+  // ⭐ Thêm 10 lời chúc mới
+  "Kính chúc thầy/cô luôn giữ mãi ngọn lửa đam mê với nghề trồng người! 🔥",
+  "Mong thầy/cô mỗi ngày đều tràn ngập niềm vui và sự yêu thương từ học trò! 💖",
+  "Chúc thầy/cô luôn khỏe mạnh để tiếp tục dìu dắt bao thế hệ học sinh! 🌿",
+  "Con cảm ơn thầy/cô vì đã giúp con trưởng thành hơn từng ngày! 🌱",
+  "Chúc thầy/cô luôn được bình an, hạnh phúc trong cuộc sống và công việc! 🕊️",
+  "Chúc cho những bài giảng của thầy/cô luôn lan tỏa cảm hứng đến mọi thế hệ! ✨",
+  "Kính chúc thầy/cô luôn mỉm cười và gặt hái thật nhiều thành công mới! 😄",
+  "Nhờ thầy/cô, chúng em học được cách trở thành người tử tế hơn mỗi ngày! 🌼",
+  "Chúc thầy/cô tiếp tục góp phần tạo nên những ước mơ bay cao bay xa! 🚀",
+  "Tri ân thầy/cô – những người đã gieo mầm cho tương lai chúng em tỏa sáng! 🌟"
 ];
 
 export const SpinWheel = () => {
@@ -92,7 +104,7 @@ export const SpinWheel = () => {
 
       <div className="text-center mb-8 space-y-2 animate-fade-in">
         <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          Vòng Quay May Mắn
+          Vòng Quay Lời Chúc
         </h1>
         <p className="text-lg text-muted-foreground">
           Chúc mừng ngày Nhà giáo Việt Nam 20/11
